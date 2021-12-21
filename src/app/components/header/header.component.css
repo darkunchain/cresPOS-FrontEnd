@@ -1,0 +1,149 @@
+@media (min-width: 100px) and (max-width: 575px) {
+  .container-sm, .container {
+    max-width: 560px;
+  }
+  .brand{
+    height: 60px;
+  }
+  .ptab {
+    font-size: 16px;
+  }
+
+  .ptab:hover , .ptab:focus{
+    color: tomato;
+    font-size: 14;
+  }
+  .me-sm-2 {
+    font-size: 12px;
+  }
+  .my-sm-0 {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .brand{
+    height: 80px;
+  }
+  .ptab {
+    font-size: 16px;
+  }
+  .ptab:hover , .ptab:focus{
+    color: tomato;
+    font-size: 14;
+  }
+  .me-sm-2 {
+    font-size: 12px;
+  }
+  .my-sm-0 {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .brand{
+    height: 80px;
+  }
+  .ptab {
+    font-size: 16px;
+  }
+  .ptab:hover , .ptab:focus{
+    color: tomato;
+    font-size: 14;
+  }
+  .me-sm-2 {
+    font-size: 12px;
+  }
+  .my-sm-0 {
+    font-size: 12px;
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .brand{
+    height: 80px;
+  }
+  .ptab {
+    background-color: #cf8d88;
+    border-radius: 5px;
+    clip-path: polygon(0% 0%, 100% 18%, 99% 83%, 75% 85%, 75% 100%, 48% 83%, 0 83%);
+    margin:0.5vw;
+    font-size: 10px;
+  }
+  .ptab:hover , .ptab:focus{
+    background-color: #4c2ecf;
+  }
+  .me-sm-2 {
+    font-size: 10px;
+  }
+  .my-sm-0 {
+    font-size: 10px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .brand{
+    height: 80px;
+  }
+  .ptab {
+    background-color: #cf8d88;
+    border-radius: 5px;
+    clip-path: polygon(0% 0%, 100% 18%, 99% 83%, 75% 85%, 75% 100%, 48% 83%, 0 83%);
+    margin:0.5vw;
+    font-size: 12px;
+  }
+  .ptab:hover , .ptab:focus{
+    background-color: #4c2ecf;
+  }
+  .me-sm-2 {
+    font-size: 12px;
+  }
+  .my-sm-0 {
+    font-size: 12px;
+  }
+}
+
+
+
+
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 20%;
+  right: 2px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 9500;
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  opacity: 0.5;
+  transform: translateX(-20px);
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.instagram {
+  background: linear-gradient(0deg, #fdcd52,#f67041, #f95149,#d63f8e,#ad30bc,#4069c9);
+  color: white;
+}
+
